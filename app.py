@@ -12,7 +12,6 @@ if text:
 
 
 
-
 # if __name__ == "__main__":
 #     path = './text.txt'
 #     input_text = read_text(path)
