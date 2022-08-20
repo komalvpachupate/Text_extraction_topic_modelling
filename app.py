@@ -1,6 +1,7 @@
 from OCR1 import *
 from topic_modeling_app import *
 import streamlit as st
+import os
 
 text = ocr_pdf_extractor()
 print("TEXTT",text)
@@ -8,6 +9,7 @@ st.write(text)
 if text:
     if st.button("Run Topic modelling"):
         modeling(text)
+
 
 
 
